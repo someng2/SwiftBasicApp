@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		3D30FB9928BCA7E500CD55F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30FB9828BCA7E500CD55F3 /* AppDelegate.swift */; };
 		3D30FB9B28BCA7E500CD55F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30FB9A28BCA7E500CD55F3 /* SceneDelegate.swift */; };
-		3D30FB9D28BCA7E500CD55F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30FB9C28BCA7E500CD55F3 /* ViewController.swift */; };
 		3D30FBA028BCA7E500CD55F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D30FB9E28BCA7E500CD55F3 /* Main.storyboard */; };
 		3D30FBA228BCA7E600CD55F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D30FBA128BCA7E600CD55F3 /* Assets.xcassets */; };
 		3D30FBA528BCA7E600CD55F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D30FBA328BCA7E600CD55F3 /* LaunchScreen.storyboard */; };
 		3D30FBB028BCA7E600CD55F3 /* SymbolRollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30FBAF28BCA7E600CD55F3 /* SymbolRollerTests.swift */; };
 		3D30FBBA28BCA7E600CD55F3 /* SymbolRollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30FBB928BCA7E600CD55F3 /* SymbolRollerUITests.swift */; };
 		3D30FBBC28BCA7E600CD55F3 /* SymbolRollerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30FBBB28BCA7E600CD55F3 /* SymbolRollerUITestsLaunchTests.swift */; };
+		3D30FBC928BCAC7D00CD55F3 /* SymbolRollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30FBC828BCAC7D00CD55F3 /* SymbolRollerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		3D30FB9528BCA7E500CD55F3 /* SymbolRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymbolRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D30FB9828BCA7E500CD55F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D30FB9A28BCA7E500CD55F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D30FB9C28BCA7E500CD55F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D30FB9F28BCA7E500CD55F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D30FBA128BCA7E600CD55F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D30FBA428BCA7E600CD55F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		3D30FBB528BCA7E600CD55F3 /* SymbolRollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymbolRollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D30FBB928BCA7E600CD55F3 /* SymbolRollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerUITests.swift; sourceTree = "<group>"; };
 		3D30FBBB28BCA7E600CD55F3 /* SymbolRollerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3D30FBC828BCAC7D00CD55F3 /* SymbolRollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 			children = (
 				3D30FB9828BCA7E500CD55F3 /* AppDelegate.swift */,
 				3D30FB9A28BCA7E500CD55F3 /* SceneDelegate.swift */,
-				3D30FB9C28BCA7E500CD55F3 /* ViewController.swift */,
 				3D30FB9E28BCA7E500CD55F3 /* Main.storyboard */,
+				3D30FBC828BCAC7D00CD55F3 /* SymbolRollerViewController.swift */,
 				3D30FBA128BCA7E600CD55F3 /* Assets.xcassets */,
 				3D30FBA328BCA7E600CD55F3 /* LaunchScreen.storyboard */,
 				3D30FBA628BCA7E600CD55F3 /* Info.plist */,
@@ -258,9 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D30FB9D28BCA7E500CD55F3 /* ViewController.swift in Sources */,
 				3D30FB9928BCA7E500CD55F3 /* AppDelegate.swift in Sources */,
 				3D30FB9B28BCA7E500CD55F3 /* SceneDelegate.swift in Sources */,
+				3D30FBC928BCAC7D00CD55F3 /* SymbolRollerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
